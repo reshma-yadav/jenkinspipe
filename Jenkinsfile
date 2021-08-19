@@ -1,4 +1,5 @@
 pipeline {
+	env.PATH = env.PATH + "c:\\Windows\\System32"
     agent any
 
     tools {
@@ -6,7 +7,7 @@ pipeline {
         maven "Maven3.8"
     }
 
-	env.PATH = env.PATH + "c:\\Windows\\System32"
+	
     stages {
 		stage ('Test'){
 			steps{
