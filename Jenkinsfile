@@ -1,6 +1,6 @@
 environment {
 
-    PATH = "C:\\WINDOWS\\SYSTEM32"
+    PATH = ";c:\\Windows\\System32"
 
 }
 
