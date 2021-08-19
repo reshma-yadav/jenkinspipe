@@ -1,5 +1,4 @@
 pipeline {
-	env.PATH = env.PATH + "c:\\Windows\\System32"
     agent any
 
     tools {
